@@ -1,0 +1,758 @@
+Chapter 1:
+processed data
+data
+complex data
+computer buses
+computer
+computers
+computer architecture
+external storage
+most computers
+early computers
+modern computers
+external storage ideal
+most desktop computers
+processor
+processor registers
+storage
+storage space
+secondary storage
+external devices
+typical storage capacity
+basic instructions
+main memory
+instructions
+memory cards
+memory
+movement instructions
+memory location
+project or print processed data
+the following data flow
+the data bus
+the processed data
+•         data
+different parts
+the data flow
+many other buses
+much more data
+input devices
+output devices
+the requested data
+the data bus and address bus
+data
+name
+role
+description
+data bus
+transports data
+central processing unit
+multiple processing units
+part
+an appropriate external storage device
+separate parts
+hardware devices
+a computer bus
+magnetic hard disks
+the computer part
+this data
+all data
+any data
+its data
+the data
+  data
+the following storage devices
+unit
+units
+address
+
+Chapter 2:
+problems
+problem
+different problems
+similar problems
+complex problems
+other problems
+multiple problems
+solve problems
+whole numbers
+negative whole numbers
+number times
+number
+numbers
+score
+rounded percentage score
+rounded percentage scores
+percentage score
+subject
+subjects
+correct output
+required inputs
+output
+outputs
+msg calculation algorithms
+score
+scores
+common solutions
+msg
+the corresponding general problem
+solutions
+solution
+school
+home
+the addition problem
+the general problem
+grade points
+sub-problem
+input
+a problem definition
+valid input
+a complex problem
+a positive whole number
+three positive whole numbers
+two positive whole numbers
+a new problem
+the original problem
+this modified problem
+the corresponding problems
+the number subjects
+the revised problem
+solve
+ table
+single digits
+good input specifications
+multiple digits
+a problem
+any problem
+both problems
+one problem
+the problem
+the problems
+this problem
+those problems
+
+Chapter 3:
+flowchart symbols
+line numbers
+pseudo-code
+endif pseudo-code
+p figure
+-code
+many steps
+step
+steps
+input data
+certain steps
+whole numbers
+output
+outputs
+numbers
+algorithm errors
+multiple symbols
+symbols
+figure
+process symbols
+algorithm
+flowcharts
+terminator symbols
+test data
+sequence pseudo
+endcase pseudo-code
+p figure
+normal flowcharts
+flow lines
+many variables
+next pseudo
+certain test data
+new variable value
+values
+value
+trace tables
+variables
+numerical value
+next commands
+code
+the following pseudo-code
+lines
+new data
+endwhile commands
+data
+more input
+pseudo
+iteration constructs
+consecutive lines
+endcase pseudo
+endif commands
+selection constructs
+-
+while...endwhile pseudo-code
+command
+commands
+endcase commands
+variable names
+result
+• produce
+exit point
+p figure
+algorithms
+
+Chapter 4:
+int values
+assigning values
+assigned values
+values
+float values
+reading values
+different values
+multiple values
+return values
+minute value
+printable values
+python source code
+repeated fixed values
+python code
+python programs
+p figure
+python ints
+python source
+source code
+python instructions
+figure
+incorrect source code
+type list
+python outputs
+python interpreter
+python
+python source code
+source code
+list # index
+machine code
+monty python
+function names
+code
+program
+programs
+escape codes
+special translator programs
+# name
+an optional third int value
+other data types
+a new str value
+input functions
+the previous str value
+this int value
+an int value
+data types
+different data types
+valid list literals
+list literals
+multiple data types
+same or different values
+the assigned value
+list
+lists
+int
+ints
+a str value
+bool variables
+other variables
+variable names
+line
+lines
+a bool return value
+list data types
+simple lists
+floating-point values
+python   source code
+# text
+other mathematical operators
+
+Chapter 5:
+# values
+str values
+value
+values
+smallest value
+average value
+biggest value
+numeric values
+# index
+# output
+# titles
+p figure
+string functions
+# result
+int
+# input values
+list
+lists
+find check digits
+# variable
+programs
+#
+# minimum_value
+# average
+program development
+figure
+such problems
+mathematical functions
+expected outputs
+specified indices
+required characters
+# output print(extract
+book titles
+int
+ints
+index
+indices
+float
+# input values
+traditional program development
+function
+functions
+common characters
+character
+characters
+# input titles
+arguments
+numbers
+problems
+problem
+other problems
+access functions
+registration number
+output
+outputs
+loading functions
+output print(maximum_value
+check digits
+            maximum_value = value
+list
+# availability
+code
+test cases
+            minimum_value = value
+list
+# maximum_value
+non-english characters
+many other possible check digit algorithms
+the first value
+none
+
+Chapter 5:
+# # input
+# acronym
+program errors
+program error types
+# #
+# process acronym
+# values
+input data
+acronym generation problem
+acronyms
+acronym
+program
+programs
+expected input
+invalid input data
+input validation
+str inputs
+invalid input
+error conditions
+# input_text
+input phrase
+# sum_values
+input
+inputs
+# index
+# availability
+different inputs
+line
+lines
+# titles
+# variable
+certain lines
+# input_str
+debug
+#
+list index
+logic error
+logic errors
+syntax errors
+test case
+test cases
+moe debug
+debugging program errors
+errors
+error
+# input
+validation score
+debugging output
+mini test case
+source code
+design test cases
+multiple test cases
+output
+outputs
+letter case bug
+designing good test cases
+data validation
+unusual output
+code
+index
+machine code
+average value
+percentage scores
+code coloured
+
+Chapter 7:
+computer data
+unauthorised users
+most computer users
+access data
+user accounts
+other data
+personal data
+user
+users
+many users
+most users
+using passwords
+such unauthorised access
+multiple users
+such information
+user movements
+anonymous users
+unlicensed users
+data
+such websites
+data corruption
+computer programs
+data loss
+specific data
+location data
+such emails
+corrupted data
+email address information
+encode data
+such permissions
+geospatial data
+software licences
+confidential customer data
+proprietary software
+such technology
+other computers
+data corruption error message
+such passwords
+public domain software
+software piracy
+personal information
+such devices
+malicious software
+file access
+bank account information
+software
+file permissions
+authentication information
+unauthorised access
+pirated software
+commercial software
+software hosting
+such infringement
+demonstration software
+more information
+such cloud services
+private information
+such creative works
+computers
+email accounts
+email addresses
+many computer games
+such acts
+credit card information
+such attacks
+
+Chapter 8:
+denary numbers
+hexadecimal number systems
+hexadecimal numbers
+number system
+binary numbers
+hexadecimal digits
+binary digits
+different number systems
+such numbers
+large binary numbers
+numbers
+lift number
+digit
+digits
+large numbers
+serial number
+more digits
+many digits
+numerical digits
+electrical point number
+represent positive whole numbers
+web addresses
+ip addresses
+place values
+mac address
+mac addresses
+ipv4 address
+memory address
+addresses
+address
+mailing addresses
+ipv6 addresses
+insufficient ip addresses
+physical address
+hardware address
+values
+unicode values
+the denary number system
+computer systems
+8.4.3.1 ipv4 addresses
+binary and denary numbers
+denary and binary numbers
+the hexadecimal number system
+binary and hexadecimal numbers
+the binary number system
+leading zeros
+denary numbers
+the denary number column
+its equivalent denary number
+the equivalent binary number
+the following hexadecimal numbers
+the denary number system
+place value
+16 denary numbers
+a denary number
+each denary number
+four denary numbers
+the denary number
+the converted hexadecimal number
+the decimal number system
+the following binary numbers
+the largest hexadecimal digit
+the hexadecimal number system
+place value
+its corresponding hexadecimal digit
+the converted binary number
+a hexadecimal digit
+binary digit
+the binary number system
+place value
+three denary digits
+most two hexadecimal digits
+a hexadecimal number
+
+Chapter 9:
+logic gate
+logic gates
+inputs a
+boolean logic
+boolean statements
+boolean statement
+different logic gates
+multiple logic gates
+intermediate inputs
+intermediate input
+constructing boolean statements
+inputs d
+output q
+inputs
+binary inputs
+logic circuits
+9.5.5 constructing boolean statements
+given logic circuits
+simple logic circuits
+logic circuit diagrams
+gate
+output
+outputs
+boolean values
+boolean
+logic decisions
+or b
+truth tables
+an and gate
+complex logic decisions
+logic statements
+input c
+input d
+input e
+input
+switches a
+table
+tables
+b
+the following boolean statements
+the component logic gates
+the final boolean statement
+light q
+or
+a
+the intermediate input d
+q
+a logic gate
+the logic gates
+these logic gates
+the corresponding boolean statement
+the partial boolean statements
+a or b
+the or gate
+the intermediate input e
+the intermediate inputs d
+q
+input
+input a.
+
+p figure
+the final output q
+the boolean statement
+a boolean statement
+the boolean statements
+this boolean statement
+the first or gate
+the second or gate
+
+Chapter 10:
+cell values
+cell references
+relative cell references
+changing cells
+absolute cell references
+other cells
+cells
+cell a1
+cells a1
+cell b2
+cell d2
+cells d2
+cell c1
+cell c4
+cell a2
+cell c2
+empty cells
+cell b5
+multiple cells
+cell e2
+cells e3
+cell i1
+cell a3
+highlighted cell
+cell a5
+cell c18
+row number
+value
+values
+logical values
+interest rate rate
+present value
+non-empty cells
+bmi values
+particular values
+interest payment
+future value
+multiple lookup values
+different values
+boolean values
+return value
+integer values
+randomise values
+interest rate
+number
+numbers
+future value −$2,017
+negative numbers
+smallest number
+registration number
+registration numbers
+positive numbers
+random numbers
+number formats
+simple interest
+interest
+monthly interest
+compound interest
+interest charges
+data types
+spreadsheet functions
+lookup table range
+the range reference cell reference
+cell and range references
+range/cell references
+data type settings
+data items
+
+Chapter 11:
+other network
+network
+networks
+wireless networks
+network protocols
+network access
+network connections
+small networks
+wired networks
+different networks
+separate networks
+network tools
+wired network protocol
+local area network
+wide area network
+multiple smaller networks
+metropolitan area network
+most large networks
+network interface card
+other computers
+connecting devices
+client computers
+data transmission
+multiple computers
+computers
+wireless devices
+new computers
+computer c
+individual computers
+the central network device
+the different network devices
+many computers
+computer b
+basic computers
+computers a
+computer a.
+other servers
+normal computers
+multiple devices
+a computer network
+device
+devices
+more data
+computing devices
+transmission medium and network organisation type
+a network device
+new devices
+data
+most devices
+digital data
+original data
+binary data
+a star topology network
+wired and wireless networks
+
+wireless network network
+data transfer
+the following network topologies
+regular data
+city
+wide area network
+local and metropolitan area networks
+an appropriate network topology
+transmitted data
+a simple home network
+a wide area network
+the other networks
+data loss
+different and separate networks
+which network topology
