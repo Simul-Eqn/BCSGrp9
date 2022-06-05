@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+        <h1>Welcome to Group 9's hackathon!</h1>
+        <h3>Who are you?</h3>
+        <p><a href = "{{ url_for('class_code', username = 'student') }}">Student!</a></p>
+        <p><a href = "{{ url_for('class_code', username = 'teacher') }}">Teacher!</a></p>
+    </body>
+</html>

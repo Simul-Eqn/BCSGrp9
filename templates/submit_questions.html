@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Questions?</title>
+    </head>
+    <body>
+        <h1>Have a question?</h1>
+        <form action = "{{ url_for('bulletin', class_code = class_code, username = username) }}", method = 'POST'>
+            <p>Lesson Date: <input type = 'date' name = 'l_date'></p>
+            <div class="form-group">
+                <label for="qns">Questions</label>
+            </div>
+            <div>
+                <textarea id="qns" name = 'qns' rows="3">type here</textarea>
+            </div> 
+            <input type = 'submit'>
+            <button type= "button"><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}">Go Bulletin!</a></button>
+        </form>
+    </body>
+</html>

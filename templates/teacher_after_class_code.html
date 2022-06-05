@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+        <h1>Welcome to {{ class_code }}, {{ username }}</h1>
+        <p><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}">Look At Your Students' Questions!</a></p>
+    </body>
+</html>
