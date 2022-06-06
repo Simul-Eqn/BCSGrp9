@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    background-color: #EFEAD8;
+    border-style: solid;
+    margin:0;
+    padding: 0;
+    height: calc(100vh - 30px);
+    border-width: 15px;
+    border-color: #455246;
+    text-align: center;
+}
+
+#backdrop {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    left: 15px;
+    top: 15px;
+    z-index: -1;
+}
+
+h1 {
+    color: #455246;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    opacity: 1;
+    margin-top: 13%;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #BBC4B0;
+    color: #6D8B74;
+    width: 40%;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: Normal;
+    border: 0;
+    resize: none;
+    padding: 5px;
+}
+
+#lesson-date {
+    float: left;
+    color: #455246;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: Normal;
+    border: 0;
+    padding: 0;
+}
+
+#submit {
+    float: right;
+    width: 30%;
+    padding-top: 20px;
+}
+
+#date-submit {
+    width: 40%;
+    margin: auto;
+}
+
+#bulletin-button {
+    padding: 0;
+    background-color: #EFEAD8;
+    margin: 0;
+    width: 63%;
+    background-color: transparent;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

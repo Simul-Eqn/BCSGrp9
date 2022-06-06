@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/dashboard_style.css')}}">
         <title>Welcome</title>
     </head>
     <body>
-        <h1>Welcome to Group 9's hackathon!</h1>
-        <h2>Class Code: </h2>
+        <img id="backdrop" src="../static/images/dashboard/backdrop.png">
+        <h1>Welcome to AskAway!</h1>
         <form action = "" method = 'POST'>
-            <p><input type='text' name = 'code'></p>
-            <input type = 'submit' value = 'Join'>
+            <p><input id="class-code-input" type='text' name = 'code' placeholder="class code"></p>
+            <input id="join-button" type = 'image' value = 'Join' src="../static/images/dashboard/join button.png">
         </form>
     </body>
 </html>
+

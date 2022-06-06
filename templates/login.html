@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/login_style.css')}}">
         <title>Welcome</title>
     </head>
     <body>
-        <h1>Welcome to Group 9's hackathon!</h1>
-        <h3>Who are you?</h3>
-        <p><a href = "{{ url_for('class_code', username = 'student') }}">Student!</a></p>
-        <p><a href = "{{ url_for('class_code', username = 'teacher') }}">Teacher!</a></p>
+        <img id="top-wave" src="../static/images/login/top wave.png">
+        <img id="bottom-wave" src="static/images/login/bottom wave.png">
+        <h1 class="project-name-logo">AskAway!</h1>
+        <h3>by BBSC09</h3>
+        <p><a href = "{{ url_for('class_code', username = 'student') }}"><img src="static/images/login/student_button.png"></a></p>
+        <p><a href = "{{ url_for('class_code', username = 'teacher') }}"><img src="static/images/login/teacher_button.png"></a></p>
     </body>
 </html>

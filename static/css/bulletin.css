@@ -1,0 +1,41 @@
+
+
+body {
+    margin: 0;
+    background-color: #EFEAD8;
+    border-style: solid;
+    height: calc(100vh - 30px);
+    border-width: 15px;
+    border-color: #455246;
+}
+
+h1 {
+    color: #455246;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    opacity: 1;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+table,
+td {
+    border: 1px solid #455246;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+div {
+    margin-left: 3%;
+}

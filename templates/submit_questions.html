@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/submit_questions_style.css')}}">
         <title>Questions?</title>
     </head>
     <body>
+        <img id="backdrop" src="../../../static/images/submit_questions/backdrop.png">
         <h1>Have a question?</h1>
         <form action = "{{ url_for('bulletin', class_code = class_code, username = username) }}", method = 'POST'>
-            <p>Lesson Date: <input type = 'date' name = 'l_date'></p>
+
             <div class="form-group">
-                <label for="qns">Questions</label>
+                <label for="qns"></label>
             </div>
             <div>
-                <textarea id="qns" name = 'qns' rows="3">type here</textarea>
-            </div> 
-            <input type = 'submit'>
-            <button type= "button"><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}">Go Bulletin!</a></button>
+                <textarea id="qns" name = 'qns' rows="6" placeholder="Type Your Questions Here!"></textarea>
+            </div>
+            <div id="date-submit">
+                <p id="lesson-date">Lesson Date: <input type = 'date' name = 'l_date'></p>
+                <input id="submit" type = 'image' src="../../../static/images/submit_questions/submit button.png">
+            </div>
+			<div>
+				<span style="color: red;">{{ errormsg }}</span>
+			</div>
+            <div id="classmates-questions">
+                <button type= "button"><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}"><img id="bulletin-button" src="../../../static/images/submit_questions/look at your classmates' questions.png"></a></button>
+            </div>
         </form>
     </body>
 </html>

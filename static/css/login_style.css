@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: #EFEAD8;
+    border-style: solid;
+    margin:0;
+    padding:0;
+    height: calc(100vh - 30px);
+    border-width: 15px;
+    border-color: #455246;
+}
+
+.project-name-logo {
+    color: #455246;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120px;
+    opacity: 1;
+    margin-top: 12%;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #455246;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: Normal;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+img {
+    width: 40%;
+}
+
+#top-wave {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+ }
+
+ #bottom-wave {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+ }

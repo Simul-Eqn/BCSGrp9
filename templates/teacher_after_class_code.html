@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/teacher_aftercc.css')}}">
         <title>Welcome</title>
     </head>
     <body>
-        <h1>Welcome to {{ class_code }}, {{ username }}</h1>
-        <p><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}">Look At Your Students' Questions!</a></p>
+        <img id="backdrop" src="../static/images/student_aftcc/backdrop.png">
+        <h1>Welcome to {{ class_code }}, {{ username }}!</h1>
+        <p><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}"><img src="../static/images/teacher_aftercc/look at your students' questions.png"></a></p>
     </body>
 </html>

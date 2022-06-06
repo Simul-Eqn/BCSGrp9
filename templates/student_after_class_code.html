@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/student_aftcc.css')}}">
         <title>Welcome</title>
     </head>
     <body>
-        <h1>Welcome to {{ class_code }}, {{ username }}</h1>
-        <p><a href = "{{ url_for('submit_questions', class_code = class_code, username = username) }}">Submit Your Question!</a></p>
-        <p><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}">Look At Your Classmates' Questions!</a></p>
+        <img id="backdrop" src="../static/images/student_aftcc/backdrop.png">
+        <h1>Welcome to {{ class_code }}, {{ username }}!</h1>
+        <a href = "{{ url_for('submit_questions', class_code = class_code, username = username) }}"><img src="../static/images/student_aftcc/submit your question.png"></a>
+        <br>
+        <a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}"><img src="../static/images/student_aftcc/look at your classmates' questions.png"></a>
     </body>
 </html>
