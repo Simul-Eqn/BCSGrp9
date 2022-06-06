@@ -3,6 +3,8 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
         <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/submit_questions_style.css')}}">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <title>Questions?</title>
     </head>
     <body>
@@ -21,11 +23,16 @@
                 <input id="submit" type = 'image' src="../../../static/images/submit_questions/submit button.png">
             </div>
 			<div>
-				<span style="color: red;">{{ errormsg }}</span>
+				<span id="errormsg" style="color: red;">{{ errormsg }}</span>
 			</div>
             <div id="classmates-questions">
                 <button type= "button"><a href = "{{ url_for('bulletin', class_code = class_code, username = username) }}"><img id="bulletin-button" src="../../../static/images/submit_questions/look at your classmates' questions.png"></a></button>
             </div>
         </form>
+        <script>
+            if($("#errormsg").text()!= ""){
+                alert($("#errormsg").text() );
+            }
+            </script>
     </body>
 </html>

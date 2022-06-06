@@ -2,6 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for
 import os
 import sqlite3
 
+#from tkinter import *
+#from tkinter import messagebox
+
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -21,6 +24,8 @@ for x in range(len(data)):
 cur_dir = os.path.dirname(os.path.abspath(__file__))
 db_file = os.path.join(cur_dir, 'bulletin.db')
 app = Flask(__name__)
+os.path.join(cur_dir, "TAMLfreqs.txt")
+os.path.join(cur_dir, "TAMLdata.txt")
 
 ## in case db is locked, run this
 # db = sqlite3.connect(db_file) 
@@ -118,6 +123,7 @@ def bulletin(username, class_code): # user doesn't ask qns, directly go bulletin
         topic = test(qns)
         
         if topic == 'spam':
+            #return render_template('submit_questions.html', class_code = class_code, username = username, errormsg = messagebox.showwarning("showwarning", "Warning"))
             return render_template('submit_questions.html', class_code = class_code, username = username, errormsg = "Spam detected! If this was not intentional, please rephrase your question. ")
         
         query = """
